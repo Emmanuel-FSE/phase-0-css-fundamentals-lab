@@ -2,4 +2,41 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+  background: black;
+  
+}
+#details {
+  display: flex;
+  justify-content: space-around;
+  background-color: brown;
+  border-top: solid;
+}
+#featured-property {
+  background-color: bisque;
+  padding: 10px;
+
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+nav a {
+  margin-right: 20px;
+  border: 4px solid whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: goldenrod;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.paragraph1 {
+  width: 800px;
+  text-align: left;
+  margin: auto;
+}
+section a {
+  color: black;
 }
